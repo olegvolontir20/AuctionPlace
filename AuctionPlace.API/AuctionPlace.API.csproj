@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AuctionPlace.DAL\AuctionPlace.DAL.csproj" />
+    <ProjectReference Include="..\AuctionPlace.Domain\AuctionPlace.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
